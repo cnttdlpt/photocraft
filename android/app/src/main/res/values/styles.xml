@@ -1,0 +1,18 @@
+<resources>
+    <!-- Giao diện sáng Liquid Glass & Warm Amber đồng bộ với ios/IRO/Views/Studio.swift -->
+    <style name="AppTheme" parent="android:style/Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:colorAccent">#E07A3B</item>
+        <item name="android:windowBackground">#F9F9FB</item>
+        <item name="android:colorBackground">#F6F7F9</item>
+        <item name="android:textColorPrimary">#16181C</item>
+        <item name="android:textColorSecondary">#8A8E98</item>
+        <item name="android:colorControlNormal">#8A8E98</item>
+        <item name="android:colorControlActivated">#E07A3B</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">#F9F9FB</item>
+        <item name="android:navigationBarColor">#F9F9FB</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>

@@ -11,3 +11,24 @@ target/
 /craft-fonts
 *.log
 __pycache__/
+
+# Android & Gradle
+.gradle/
+android/.gradle/
+android/**/build/
+android/local.properties
+android/tools/cache/
+android/tools/build/
+*.apk
+*.keystore
+*.jks
+
+# iOS & Xcode
+ios/build/
+ios/DerivedData/
+*.xcuserstate
+*.xcresult
+
+# Node & Archives
+node_modules/
+*.zip

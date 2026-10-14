@@ -82,6 +82,20 @@
 
 <br>
 
+## 📱 Mobile & Web Darkroom Studio Ecosystem (IRO Studio)
+
+PhotoCraft is integrated with the **IRO Studio** multi-platform imaging suite ([cnttdlpt/photoedit](https://github.com/cnttdlpt/photoedit)), sharing core optical darkroom algorithms, the LightCraft color science engine, and authentic film simulation recipes:
+
+- **Android Studio App (`/android`)**: Native Android app with Material Design 3 Expressive, Camera2 API, live GPU preview, and offline optical processing.
+- **iOS App (`/ios`)**: Native iOS application written in Swift/SwiftUI with Metal compute shaders.
+- **Web Studio (`/web`)**: Standalone production web darkroom with zero-dependency Node.js server (`server.mjs`), Docker container, Nginx configuration, and client-side Web Workers.
+- **392 Film Recipes (`/assets/recipes/recipes.json`)**: Fujifilm X-Trans and Bayer film simulation recipes with instant search, sensor filtering, and 1-click preset application.
+- **30 Exhibition Photo Frames (`PhotoFrame`)**: Museum-grade frames with camera EXIF data and automatic dominant color extraction.
+- **LightCraft Suite**: Fritsch–Carlson monotone cubic spline curves and 3-Way OkLab/OkLCh color wheels.
+- **3D LUT (.cube) Export**: Bake real-time color simulations directly into 33x33x33 LUT files for DaVinci Resolve, Premiere Pro, and CapCut.
+
+<br>
+
 ## Features
 
 Every screenshot here is the real app at work on public-domain art, rendered offscreen through its control channel.
